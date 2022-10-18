@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+}
+body{
+    background-image: linear-gradient(to right, #ee9ca7, #f3acb5, #f7bdc4, #fbcdd2, #ffdde1);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #574144;
+}
+
+.cake3{
+    width: 100px;
+}
+.balloon2 img{
+    width: 15%;
+}
+.balloon2 img:first-child{
+    right: 0%;
+}
+
+.birthday__title h1{
+    font-size:400%;
+}
+
+.birthday__decoration img:nth-child(1){
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+}
+.birthday__decoration img:nth-child(2){
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+
+}
+
+.birthday__wish1 p{
+    font-size: 30px;
+}
+.birthday__wish1 img{
+    width: 50%;
+}
+
+@media screen and (max-width: 1024px){
+.laptop{
+    display: none;
+}
+}
